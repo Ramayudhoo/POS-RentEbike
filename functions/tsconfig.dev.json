@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true, // Aktifkan peta sumber untuk debugging
+    "outDir": "./lib" // Direktori output untuk file JavaScript
+  },
+  "include": [
+    "src/**/*.ts" // File TypeScript yang akan dikompilasi
+  ],
+  "exclude": [
+    "node_modules" // Direktori yang akan diabaikan
+  ]
+}
